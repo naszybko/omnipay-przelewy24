@@ -104,8 +104,8 @@ abstract class AbstractRequest extends BaseAbstractRequest
         return $this->httpClient->request(
             $method,
             $this->getEndpoint() . $endpoint,
-            array(),
-            json_encode($data)
+            array('Content-Type' => 'application/x-www-form-urlencoded'),
+            http_build_query($data, null, '&')
         );
     }
 }
