@@ -13,6 +13,12 @@
   ],
   "homepage": "https://github.com/ticketswap/omnipay-przelewy24",
   "license": "MIT",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/thephpleague/omnipay-common"
+    }
+  ],
   "authors": [
     {
       "name": "TicketSwap",
@@ -23,7 +29,7 @@
     "psr-4": { "Omnipay\\Przelewy24\\" : "src/" }
   },
   "require": {
-    "omnipay/common": "^3"
+    "omnipay/common": "dev-feat-psr18"
   },
   "require-dev": {
     "omnipay/tests": "^3"
