@@ -16,7 +16,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/thephpleague/omnipay-common"
+      "url": "https://github.com/naszybko/omnipay-common"
     }
   ],
   "authors": [
@@ -29,7 +29,7 @@
     "psr-4": { "Omnipay\\Przelewy24\\" : "src/" }
   },
   "require": {
-    "omnipay/common": "dev-feat-psr18"
+    "omnipay/common": "dev-master"
   },
   "require-dev": {
     "omnipay/tests": "^3"
