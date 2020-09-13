@@ -1,4 +1,4 @@
-{
+e{
   "name": "ticketswap/omnipay-przelewy24",
   "type": "library",
   "description": "Przelewy24 driver for the Omnipay payment processing library",
@@ -16,7 +16,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/naszybko/omnipay-common"
+      "url": "https://github.com/thephpleague/omnipay-common"
     }
   ],
   "authors": [
@@ -29,7 +29,7 @@
     "psr-4": { "Omnipay\\Przelewy24\\" : "src/" }
   },
   "require": {
-    "omnipay/common": "dev-master"
+    "omnipay/common": "dev-feat-psr18"
   },
   "require-dev": {
     "omnipay/tests": "^3"
